@@ -48,7 +48,8 @@ export default class extends React.Component {
                 labelString: "percentage / %"
               },
               ticks: {
-                beginAtZero: true
+                max: 100,
+                min: 0
               }
             }
           ]
